@@ -1,0 +1,141 @@
+:root {
+    --yr-black: #242424;
+    --yr-gray: #484848;
+    --yr-brown: #5B3D1F;
+    --yr-white: #FCF9C2;
+    --yr-yellow: #FFF02D;
+}
+
+body {
+    margin: 0em;
+    padding: 0em;
+    background-color: var(--yr-white);
+}
+
+#yr-root {
+    display: block;
+    min-width: 100vw;
+    height: 100vh;
+}
+
+.yr-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-width: 95vw;
+    height: 24vh;
+    border-right: solid var(--yr-brown) 0.5em;
+    border-left: solid var(--yr-brown) 0.5em;
+    border-bottom: solid var(--yr-brown) 0.5em;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: var(--yr-yellow);
+}
+
+.yr-header > #yr-root {
+    width: 640px;
+    height: 360px;
+}
+
+.yr-section-title {
+    padding: 1em;
+}
+
+.yr-section-title > .yr-section-title-text {
+    font-family: Poppins Extra Bold;
+    font-size: 5em;
+    color: var(--yr-brown);
+}
+
+.yr-body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    box-sizing: border-box;
+}
+
+.yr-body > .yr-card {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-width: 90vw;
+    height: 50vh;
+    box-sizing: border-box;
+    margin: 1em 1em 1em 1em;
+    border: solid var(--yr-brown) 8px;
+    border-radius: 24px;
+}
+
+.yr-body > .yr-card > .yr-container {
+    
+}
+
+.yr-body > .yr-card > .yr-container > #yr-r0001 {
+    width: 864px;
+    height: 576px;
+}
+
+.yr-body > .yr-card > .yr-container > .yr-info  {
+    
+}
+
+.yr-body > .yr-card > .yr-container > .yr-info > li{
+    list-style: none;
+}
+
+.yr-body > .yr-card > .yr-container > .yr-info > li > .yr-name {
+    font-family: Poppins Extra Bold;
+    font-size: 48px;
+    color: var(--yr-brown);
+}
+
+.yr-body > .yr-card > .yr-container > .yr-info > li > .yr-data {
+    font-family: Poppins Extra Bold;
+    font-size: 48px;
+    color: var(--yr-brown);
+}
+
+.yr-body > .yr-card > .yr-container > #yr-video {
+    width: 864px;
+    height: 576px;
+}
+
+.yr-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0em 0em 0em;
+    padding: 1em 0em 1em 0em;
+}
+
+.yr-footer-text {
+    display: flex;
+}
+
+.yr-footer-text::before {
+    content: '';
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 33vw;
+    height: 0.5em;
+    background-color: var(--yr-brown);
+}
+
+.yr-footer-text::after {
+    content: '';
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 33vw;
+    height: 0.5em;
+    background-color: var(--yr-brown);
+}
+
+.yr-footer > .yr-footer-text > p {
+    margin: 0em 1em 0em 1em;
+    font-family: Poppins Extra Bold;
+    font-size: 24px;
+    color: var(--yr-brown);
+}
