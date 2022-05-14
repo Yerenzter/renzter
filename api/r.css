@@ -60,15 +60,18 @@ body {
     justify-content: center;
     align-content: center;
     min-width: 90vw;
-    height: 50vh;
+    height: 70vh;
     box-sizing: border-box;
     margin: 1em 1em 1em 1em;
+    padding: 1em;
     border: solid var(--yr-brown) 8px;
     border-radius: 24px;
 }
 
 .yr-body > .yr-card > .yr-container {
-    
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
 .yr-body > .yr-card > .yr-container > #yr-r0001 {
@@ -138,4 +141,25 @@ body {
     font-family: Poppins Extra Bold;
     font-size: 24px;
     color: var(--yr-brown);
+}
+
+.yr-download {
+    display: block;
+    justify-self: center;
+    align-self: center;
+    margin: 1em;
+    padding: 1em;
+    font-family: Poppins Extra Bold;
+    font-size: 48px;
+    color: var(--yr-brown);
+    text-decoration: none;
+    border: solid var(--yr-brown) 8px;
+    border-radius: 24px;
+    background-color: var(--yr-white);
+}
+
+.yr-download:hover {
+    background-color: var(--yr-brown);
+    color: var(--yr-white);
+    outline: none;
 }
